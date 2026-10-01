@@ -12,7 +12,7 @@ Instituto Tecnológico de Oaxaca (ITO) · Actividad individual
 ![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?logo=bootstrap&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222?logo=github&logoColor=white)
 
-### 🔗 [Ver el portafolio en vivo](https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/)
+### 🔗 [Ver el portafolio en vivo](https://cristianmartinezz1.github.io/Actividad4/)
 
 ![Portada del portafolio](img/capturas/01-inicio-escritorio.png)
 
