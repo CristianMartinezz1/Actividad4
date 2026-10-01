@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portafolio de Cristian, estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Oaxaca." />
+        <meta name="author" content="Cristian" />
+        <title>Cristian | Portafolio</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <!-- Font Awesome (iconos) -->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Estilos (Bootstrap 5 + tema Resume + personalización) -->
+        <link href="css/portafolio.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Cristian</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Perfil.jpeg" alt="Foto de perfil de Cristian" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Mostrar navegación"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#roadmap">Aprendiendo</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Contenido -->
+        <div class="container-fluid p-0">
+
+            <!-- Acerca de -->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Cristian
+                        <span class="text-primary"> Martinez Pacheco</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Oaxaca de Juárez, Oaxaca, México ·
+                        <a href="mailto:correo@ejemplo.com">martinezpachecocristian11@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">
+                        Estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Oaxaca.
+                        Me gusta construir sistemas completos: desde la base de datos en PostgreSQL y el backend en Flask,
+                        hasta la interfaz y los gráficos 3D con OpenGL. Busco prácticas profesionales donde seguir aprendiendo y aportar.
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/martinez-pacheco-cristian-6b1a21323/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/CristianMartinezz1" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:martinezpachecocristian11@gmail.com" aria-label="Correo"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Educación -->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Educación</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Instituto Tecnológico de Oaxaca (ITO)</h3>
+                            <div class="subheading mb-3">Ingeniería en Sistemas Computacionales</div>
+                            <p>
+                                Materias destacadas: Administración de Bases de Datos, Graficación, Redes de Computadoras,
+                                Lenguajes de Interfaz, Lenguajes y Autómatas e Ingeniería de Software.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">En curso</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Proyectos -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Proyectos</h2>
+
+                    <div class="mb-4" id="projectFilters">
+                        <button type="button" class="btn btn-outline-primary btn-sm filter-btn active" data-filter="all">Todos</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm filter-btn" data-filter="realizado">Realizados</button>
+                        <button type="button" class="btn btn-outline-primary btn-sm filter-btn" data-filter="planeado">Planeados</button>
+                    </div>
+
+                    <div class="row g-4" id="projectGrid">
+                        <div class="col-md-6 project-item" data-status="realizado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-success badge-status mb-2">Realizado</span>
+                                    <h3 class="card-title h5">FitControl</h3>
+                                    <p class="card-text">Sistema de control de acceso para un gimnasio con códigos QR, reportes con gráficas y exportación a CSV. Proyecto en equipo.</p>
+                                    <span class="badge badge-tech">Python</span><span class="badge badge-tech">Tkinter</span><span class="badge badge-tech">SQLite</span><span class="badge badge-tech">OpenCV</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 project-item" data-status="realizado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-success badge-status mb-2">Realizado</span>
+                                    <h3 class="card-title h5">Sistema de Mantenimiento ITO</h3>
+                                    <p class="card-text">Aplicación web con tres roles de usuario, tableros con Chart.js y mapas interactivos del campus con Leaflet.</p>
+                                    <span class="badge badge-tech">Flask</span><span class="badge badge-tech">PostgreSQL</span><span class="badge badge-tech">Bootstrap 5</span><span class="badge badge-tech">Chart.js</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 project-item" data-status="realizado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-success badge-status mb-2">Realizado</span>
+                                    <h3 class="card-title h5">Sistema de Información Hospitalario</h3>
+                                    <p class="card-text">Proyecto de administración de bases de datos: esquema relacional de 7 entidades, replicación, índices, auditoría y seguridad a nivel de fila.</p>
+                                    <span class="badge badge-tech">PostgreSQL</span><span class="badge badge-tech">SQL</span><span class="badge badge-tech">Replicación</span><span class="badge badge-tech">pgaudit</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 project-item" data-status="realizado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-success badge-status mb-2">Realizado</span>
+                                    <h3 class="card-title h5">VacaMinecraft (Graficación)</h3>
+                                    <p class="card-text">Escena 3D con iluminación de Phong, sombreado degradado y sombras proyectadas mediante stencil buffer, con cámara orbital.</p>
+                                    <span class="badge badge-tech">C++</span><span class="badge badge-tech">OpenGL</span><span class="badge badge-tech">GLUT</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 project-item" data-status="planeado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-warning text-dark badge-status mb-2">Planeado</span>
+                                    <h3 class="card-title h5">API REST para turismo en Oaxaca</h3>
+                                    <p class="card-text">API pública con información de destinos, artesanías y festividades, con documentación interactiva y despliegue en contenedores.</p>
+                                    <span class="badge badge-tech">Python</span><span class="badge badge-tech">Flask</span><span class="badge badge-tech">Docker</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 project-item" data-status="planeado">
+                            <div class="card project-card h-100">
+                                <div class="card-body">
+                                    <span class="badge bg-warning text-dark badge-status mb-2">Planeado</span>
+                                    <h3 class="card-title h5">Compilador de un lenguaje didáctico</h3>
+                                    <p class="card-text">Analizador léxico, sintáctico y generador de código para un lenguaje pequeño, aplicando lo visto en Lenguajes y Autómatas.</p>
+                                    <span class="badge badge-tech">Java</span><span class="badge badge-tech">Autómatas</span><span class="badge badge-tech">Gramáticas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Habilidades -->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Habilidades</h2>
+
+                    <div class="subheading mb-3">Lenguajes y herramientas</div>
+                    <ul class="list-inline dev-icons mb-5">
+                        <li class="list-inline-item" title="HTML5"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item" title="CSS3"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item" title="JavaScript"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item" title="Python"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item" title="Java"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item" title="Bootstrap"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item" title="Git"><i class="fab fa-git-alt"></i></li>
+                        <li class="list-inline-item" title="GitHub"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item" title="Base de datos"><i class="fas fa-database"></i></li>
+                        <li class="list-inline-item" title="Linux"><i class="fab fa-linux"></i></li>
+                    </ul>
+
+                    <div class="subheading mb-3">Forma de trabajo</div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Documentación técnica clara (LaTeX, Word, PDF)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Trabajo en equipo y control de versiones con Git</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Diseño responsivo y mobile-first</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Pruebas y depuración de consultas SQL y plantillas web</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Aprendiendo -->
+            <section class="resume-section" id="roadmap">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Lo que estoy aprendiendo</h2>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Docker y contenedores</span><span>En proceso</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill learning" data-level="30"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Programación funcional</span><span>En proceso</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill learning" data-level="35"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Node.js y APIs REST</span><span>En proceso</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill learning" data-level="25"></div></div>
+                    </div>
+                    <div class="skill-item mb-0">
+                        <div class="skill-label"><span>Redes y seguridad informática</span><span>En proceso</span></div>
+                        <div class="skill-bar"><div class="skill-bar-fill learning" data-level="40"></div></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Intereses -->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Intereses</h2>
+                    <p>Además de programar, me interesa la computación gráfica y todo lo que tenga que ver con visualizar datos de forma clara. Disfruto convertir un tema técnico en una presentación o un documento bien cuidado.</p>
+                    <p class="mb-0">Me gusta la cultura y la gastronomía de Oaxaca, y busco proyectos de software que puedan servir a mi comunidad y a emprendimientos locales.</p>
+                </div>
+            </section>
+            <footer class="site-footer">
+                &copy; <span id="currentYear"></span> Cristian · Plantilla <a href="https://startbootstrap.com/theme/resume" target="_blank" rel="noopener">Resume</a> de Start Bootstrap (MIT)
+            </footer>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- JS del portafolio -->
+        <script src="js/portafolio.js"></script>
+    </body>
+</html>
