@@ -14,7 +14,7 @@ Instituto Tecnológico de Oaxaca (ITO) · Actividad individual
 
 ### 🔗 [Ver el portafolio en vivo](https://cristianmartinezz1.github.io/Actividad4/)
 
-![Portada del portafolio](img/capturas/01-inicio-escritorio.png)
+![Portada del portafolio](img/Cap1.png)
 
 </div>
 
@@ -124,32 +124,15 @@ Escribí este README, subí el proyecto a un repositorio público y activé GitH
 ## 📸 Capturas de pantalla
 
 ### Inicio (escritorio)
-![Inicio en escritorio](img/capturas/01-inicio-escritorio.png)
+![Inicio en escritorio](img/Cap1.png)
 
 ### Proyectos (escritorio)
-![Sección de proyectos](img/capturas/02-proyectos-escritorio.png)
+![Sección de proyectos](img/Cap2.png)
 
 ### Filtro de proyectos planeados
-![Filtro de proyectos planeados](img/capturas/04-filtro-planeados.png)
+![Filtro de proyectos planeados](img/Cap3.png)
 
-### Habilidades con barras de nivel
-![Sección de habilidades](img/capturas/03-habilidades-escritorio.png)
 
-### Vista móvil
-
-<p>
-  <img src="img/capturas/06-movil-inicio.png" alt="Inicio en móvil" width="260">
-  &nbsp;&nbsp;
-  <img src="img/capturas/07-movil-menu.png" alt="Menú desplegable en móvil" width="260">
-</p>
-
-### Página completa
-<details>
-<summary>Ver la página completa</summary>
-
-![Página completa](img/capturas/05-pagina-completa.png)
-
-</details>
 
 ---
 
